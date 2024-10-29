@@ -1,4 +1,4 @@
-from .exchange.uniswap_v3 import UniswapV3Unified
+from .exchanges.uniswap_v3 import UniswapV3Unified
 from .parsers.uniswap_v3 import UniswapV3Parser
 
 

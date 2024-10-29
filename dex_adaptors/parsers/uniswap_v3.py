@@ -2,8 +2,10 @@ from .base import Parser
 
 
 class UniswapV3Parser(Parser):
+
     def __init__(self):
-        super().__init__(name="uniswap_v3")
+        super().__init__()
+        self.name = 'uniswap_v3'
 
     @staticmethod
     def parse_pool_name(datas: dict) -> str:

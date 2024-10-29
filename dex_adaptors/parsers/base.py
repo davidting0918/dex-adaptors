@@ -2,11 +2,9 @@ from datetime import datetime as dt
 
 
 class Parser:
+    name: str
 
     IGNORE_STR_VALUES = []
-
-    def __init__(self, name: str):
-        self.name = name
 
     @staticmethod
     def get_timestamp() -> int:
